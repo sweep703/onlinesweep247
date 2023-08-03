@@ -722,11 +722,11 @@ a {
   .m-hide {
     display: none;
   }
-  .hero {
+  /* .hero {
     background-image: url("/images/wp.png");
     object-fit: cover;
     background-repeat: no-repeat;
-  }
+  } */
 }
 
 #myVideo {
