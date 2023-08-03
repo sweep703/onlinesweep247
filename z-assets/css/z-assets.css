@@ -8,12 +8,12 @@ body {
 }
 
 a {
-  color: #a369be;
+  color: white !important;
 }
 
 a:hover,
 a:focus {
-  color: #a369be;
+  color: #e11262;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-  color: #a369be;
+  color: #e11262;
   font-size: 33px;
   font-weight: 500;
 }
@@ -46,7 +46,7 @@ h4 {
 h5 {
   font-size: 28px;
   font-weight: 300;
-  color: #a369be;
+  color: #e11262;
   margin-bottom: 0.7rem;
 }
 
@@ -55,12 +55,12 @@ p {
 }
 
 p.lead {
-  color: #a369be;
+  color: #e11262;
   margin-bottom: 2rem;
 }
 
 .text-primary {
-  color: #a369be !important;
+  color: #e11262 !important;
 }
 
 .light-font {
@@ -76,7 +76,7 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-  color: #d6619c;
+  color: #e11262;
 }
 
 .btn-primary {
@@ -136,7 +136,7 @@ p.lead {
 }
 
 .section-title small {
-  color: #998a9b;
+  color: #eee2f0;
 }
 
 @media (max-width: 767px) {
@@ -154,7 +154,7 @@ p.lead {
 .nav-menu {
   padding: 1rem 0;
   transition: all 0.3s ease;
-  background-color: #FE308B;
+  background-color: #0e12e9;
 }
 
 .nav-menu.is-scrolling,
@@ -237,15 +237,6 @@ header {
 /* FEATURES
 ----------------------*/
 
-.gradient-fill:before {
-  color: #fe7f06;
-  background: -moz-linear-gradient(top, #9477b4 0%, #fe7f06 100%);
-  background: -webkit-linear-gradient(top, #9477b4 0%, #fe7f06 100%);
-  background: linear-gradient(to bottom, #9477b4 0%, #fe7f06 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .card.features {
   border: 0;
@@ -621,12 +612,9 @@ footer p a:hover {
   border-radius: 5%;
 }
 
-.round-img img {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.3) 0px 15px 12px;
-  /* transition: transform 0.5s ease; */
-}
-.round-img img :hover {
-  transform: scale(1.5);
+.img-fluid{
+  border-radius: 50px;
+
 }
 
 .down-content {
@@ -704,7 +692,7 @@ p {
 }
 
 .platform{
-  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to right top, #b196a7, #c5aac1, #e9e1ec, #aa8fd8, #9a9ae1, #8aa7ec, #5e6e80, #7cb9e1, #93cbdd, #7c8587, #89b5b8, #b8d5d3);
 
 }
 a{
@@ -717,11 +705,7 @@ a{
 .m-hide{
   display:block;
 }
-.hero { 
-  background-image: url('/images/wl.png');
-  object-fit: cover;
-  background-repeat: no-repeat;
-}
+
 @media (max-width: 992px) {
   .hide{
     display: block;
